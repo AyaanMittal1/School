@@ -1,28 +1,56 @@
-.list {
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    display: inline;
+
+#school {    
+    
+    width: 100%;
+    height: 620px;
 }
-    .list:hover {
-    background-color: aqua;
-    font-size: 25px;
+
+.campus {
+    border: 1px solid #c7c7c7;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.mymov
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    position: sticky;
+    
+}
+.mymov i{
+    float:right;
+    position: sticky;
+}
+.engo
+{
+  margin-top: 13px;
+}
+
+.engo h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.engo img
+{
+  border-radius: 25px;
+}
+
+.engo p
+{
+  margin-top:10px;
+}
+#contact h3
+{
+    display: inline;
 }
 .mynavbar {
     position: sticky;
     top: 0;
     z-index: 1000000000;
-}
-.mymov{
-    padding: 6px 22px;
-    border-radius: 10px;
-    width: 100%;
-    display: inline-block;
-}
-.mymov i{
-   float: right; 
-}
-.rev span{
-    color:#ff7700;
 }
